@@ -1,0 +1,76 @@
+#conteneur
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}  
+
+.element
+{
+  margin-top: 10px;
+  margin: 10px;
+  text-align: center;
+  font-size: 14px;
+  width: 3%;
+} 
+
+#main
+{
+  display: flex;
+  justify-content: center;
+  
+  
+} 
+
+#barre
+{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#search-buttons
+{
+  display: flex;
+  justify-content: center; 
+}
+ 
+ #pied1
+{
+  display: flex;
+  width: 100%;
+  background-color: rgb(194,194,195);
+  color: gray;
+  margin-top: 190px;
+}  
+ #piedgauche
+{
+  display: flex;
+  flex-direction: row;
+}
+ #pieddroit
+{
+  display: flex;
+  flex-direction: row;
+
+}
+
+#pied2
+{
+  display: flex;
+  color: gray;
+  background-color: rgb(194,194,195);
+  float:left;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+#pied3
+{
+  display: flex;
+  color: gray;
+  background-color: rgb(194,194,195);
+  float:right;
+  width: 50%;
+  justify-content: flex-end;
+}
